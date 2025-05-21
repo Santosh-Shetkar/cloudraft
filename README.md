@@ -11,6 +11,7 @@ kind create cluster --name metrics-cluster --config kind-config.yaml
 ```bash
 ./kind/install-argocd.sh
 ```
+Access the argocd dashboard
 
 3. Install NGINX Ingress Controller
 ```bash
