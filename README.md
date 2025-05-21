@@ -37,3 +37,5 @@ curl http://localhost/counter
 ```bash
 for i in $(seq 1 20); do curl -s http://localhost/counter; done
 ```
+
+8. Screenshots
