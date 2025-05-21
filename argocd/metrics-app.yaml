@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/<your-repo>/helm/metrics-app
+    repoURL: https://github.com/Santosh-Shetkar/cloudraft/helm/metrics-app
     targetRevision: HEAD
     path: metrics-app
     helm:
