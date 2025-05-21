@@ -19,7 +19,7 @@ kind create cluster --name metrics-cluster --config kind-config.yaml
 
 4. Port-forward
 ```bash
-./kind/port-forward.sh
+kubectl port-forward svc/argocd-server -n argocd 8081:443
 ```
 
 5. Apply ArgoCD application
@@ -29,6 +29,8 @@ kubectl apply -f argocd/metrics-app.yaml
 
 6. Access the app:
 ```bash
+
+kubectl port-forward svc/metrics-app 8080:8080
 curl http://localhost/counter
 ```
 
