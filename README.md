@@ -1,6 +1,7 @@
 # Metrics App Deployment
 
 # Root Project Directory
+```text
 .
 ├── README.md                          # Project documentation with setup, usage, and findings
 
@@ -28,7 +29,7 @@
     ├── cluster-config.yaml           # KIND cluster config with port mappings for Ingress (80/443 to localhost)
     ├── install-argocd.sh             # Script to install ArgoCD in the KIND cluster
     └── install-ingress-nginx.sh      # Script to install NGINX Ingress controller for exposing the app
-
+```
 ## Setup Instructions
 
 1. Create a KIND cluster
